@@ -29,6 +29,7 @@ export const Button: React.FC<ButtonProps> = ({
   disabled = false,
   loading = false,
   fullWidth = false,
+  style,
 }) => {
   const isDisabled = disabled || loading;
 
